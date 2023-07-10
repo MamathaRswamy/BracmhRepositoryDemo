@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<groups>
+   <run>
+
+   </run>
+
+
+</groups>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="executions.TC_2"/>
+      <class name="executions.TC_01"/>
+      <class name="executions.TC_4"/>
+      <class name="executions.TC_3"/>
+      <class name="executions.TC_6"/>
+      <class name="executions.TC_5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
