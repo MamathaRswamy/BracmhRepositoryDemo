@@ -12,15 +12,17 @@ public class DemoTestExtent extends BaseClass {
 	public void validatePassTest() {
 		System.out.println("This is from passed testcase");
 	}
+
 	@Test
 	public void validateFailedTest() {
-		driver.get("https://www.instagram.com");	}
+		driver.get("https://www.instagram.com");
+		System.out.println("done");
+	}
 
 	@Test
 	public void validateSkippedTest() {
 		System.out.println("This is from Skipped testcase");
 		throw new SkipException("This is skipped");
 	}
-
 
 }
